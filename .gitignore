@@ -1,0 +1,9 @@
+.DS_Store
+config/database.yml
+db/*.sqlite3
+log/*.log
+tmp/*
+config/initializers/site_keys.rb
+public/javascripts/all.js
+public/stylesheets/*.css
+Capfile

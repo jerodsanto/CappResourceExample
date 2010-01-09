@@ -1,0 +1,21 @@
+!!!
+%html{:xmlns => "http://www.w3.org/1999/xhtml", "xml:lang" => "en", :lang => "en"}
+  %head
+    %meta{'http-equiv' => "content-type", :content => "text/html;charset=UTF-8"}
+    %title= @page_title || 'Change Me'
+
+    = stylesheet_link_tag 'reset.css',  :media => 'screen, projection'
+    = stylesheet_link_tag 'screen.css', :media => 'screen, projection'
+    = stylesheet_link_tag 'print.css',  :media => 'print'
+    /[if IE]
+      = stylesheet_link_tag 'ie.css', :media => 'screen, projection'
+
+    = javascript_include_tag 'jquery', 'application', :cache => true
+  %body
+    #wrap
+      #header
+        - flash.each do |key,value|
+          %div{:class => key}= h(value)
+      #content
+        = yield
+      #footer
