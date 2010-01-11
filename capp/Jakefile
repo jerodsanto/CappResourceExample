@@ -1,0 +1,41 @@
+/*
+ * Jakefile
+ * Address Book
+ *
+ * Created by Jerod Santo on January 9, 2010.
+ * Copyright 2010, Your Company All rights reserved.
+ */
+
+var ENV           = require("system").env,
+    FILE          = require("file"),
+    OS            = require("os"),
+    task          = require("jake").task,
+    FileList      = require("jake").FileList,
+    app           = require("cappuccino/jake").app,
+    configuration = ENV["CONFIG"] || ENV["CONFIGURATION"] || ENV["c"] || "Release";
+
+app ("AddressBook", function(task)
+{
+    task.setBuildIntermediatesPath(FILE.join("Build", "AddressBook.build", configuration));
+    task.setBuildPath(FILE.join("Build", configuration));
+
+    task.setProductName("AddressBook");
+    task.setIdentifier("com.yourcompany.AddressBook");
+    task.setVersion("1.0");
+    task.setAuthor("Your Company");
+    task.setEmail("feedback @nospam@ yourcompany.com");
+    task.setSummary("AddressBook");
+    task.setSources(new FileList("**/*.j"));
+    task.setResources(new FileList("Resources/*"));
+    task.setIndexFilePath("index.html");
+    task.setInfoPlistPath("Info.plist");
+
+    if (configuration === "Debug")
+        task.setCompilerFlags("-DDEBUG -g");
+    else
+        task.setCompilerFlags("-O");
+});
+
+task ("default", ["AddressBook"], function() {
+  OS.system(["capp", "gen", "-f", "Build/Release/AddressBook"]);
+});

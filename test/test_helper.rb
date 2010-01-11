@@ -8,5 +8,15 @@ Webrat.configure do |config|
 end
 
 class ActiveSupport::TestCase
-  # Add more helper methods to be used by all tests here...
+
+  # this provides methods: get_json, put_json, post_json, delete_json
+  def method_missing(method, *args)
+    if method.to_s =~ /^(get|put|post|delete)_json$/
+      args.size == 1 ? args[1] = {:format => "json"} : args[1].merge(:format => "json")
+      send($1, *args)
+    else
+      super
+    end
+  end
+
 end
