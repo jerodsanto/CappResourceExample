@@ -18,29 +18,29 @@
     {
         var bounds = [self bounds];
 
-        contactName = [[CPTextField alloc] initWithFrame:CGRectMake(10,10,CGRectGetWidth(bounds)-10,33)];
+        contactName = [[CPTextField alloc] initWithFrame:CGRectMake(25,15,CGRectGetWidth(bounds)-25,33)];
         [contactName setFont:[CPFont fontWithName:@"Trebuchet MS" size:24]];
         [contactName setTarget:self];
         [contactName setAction:@selector(saveContact:)];
         [self addSubview:contactName];
 
-        phoneTitle = [[CPTextField alloc] initWithFrame:CGRectMake(15,60,40,20)];
+        phoneTitle = [[CPTextField alloc] initWithFrame:CGRectMake(30,65,40,20)];
         [phoneTitle setFont:[CPFont fontWithName:@"Trebuchet MS" size:13]];
         [phoneTitle setTextColor:[CPColor colorWithHexString:@"b1b1b1"]];
         [self addSubview:phoneTitle];
 
-        contactPhone = [[CPTextField alloc] initWithFrame:CGRectMake(60,60,250,20)];
+        contactPhone = [[CPTextField alloc] initWithFrame:CGRectMake(75,65,250,20)];
         [contactPhone setFont:[CPFont fontWithName:@"Trebuchet MS" size:13]];
         [contactPhone setTarget:self];
         [contactPhone setAction:@selector(saveContact:)];
         [self addSubview:contactPhone];
 
-        emailTitle = [[CPTextField alloc] initWithFrame:CGRectMake(16,85,40,20)];
+        emailTitle = [[CPTextField alloc] initWithFrame:CGRectMake(31,90,40,20)];
         [emailTitle setFont:[CPFont fontWithName:@"Trebuchet MS" size:13]];
         [emailTitle setTextColor:[CPColor colorWithHexString:@"b1b1b1"]];
         [self addSubview:emailTitle];
 
-        contactEmail = [[CPTextField alloc] initWithFrame:CGRectMake(60,85,250,20)];
+        contactEmail = [[CPTextField alloc] initWithFrame:CGRectMake(75,90,250,20)];
         [contactEmail setFont:[CPFont fontWithName:@"Trebuchet MS" size:13]];
         [contactEmail setTarget:self];
         [contactEmail setAction:@selector(saveContact:)];

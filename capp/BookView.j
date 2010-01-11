@@ -30,7 +30,12 @@ var defaultColor   = [CPColor colorWithHexString:@"4F4F4F"],
         controller    = aController;
         searchApplied = NO;
 
-        searchField = [[CPSearchField alloc] initWithFrame:CGRectMake(365,0,130,30)];
+        var title = [[CPTextField alloc] initWithFrame:CGRectMake(210,2,80,30)];
+        [title setStringValue:@"Address Book"];
+        [title setFont:[CPFont fontWithName:@"Trebuchet MS" size:11.5]];
+        [self addSubview:title];
+
+        searchField = [[CPSearchField alloc] initWithFrame:CGRectMake(365,10,130,30)];
         [searchField setTarget:self];
         [searchField setAction:@selector(searchStringDidApply:)];
         [self addSubview:searchField];
@@ -38,21 +43,21 @@ var defaultColor   = [CPColor colorWithHexString:@"4F4F4F"],
         var nameColumn = [[CPTableColumn alloc] initWithIdentifier:@"name"];
         [nameColumn setWidth:160];
 
-        listView = [[CPTableView alloc] initWithFrame:CGRectMake(0,0,160,240)];
+        listView = [[CPTableView alloc] initWithFrame:CGRectMake(0,0,160,230)];
         [listView setHeaderView:nil];
         [listView setCornerView:nil];
         [listView addTableColumn:nameColumn];
         [listView setDelegate:self];
         [listView setDataSource:self];
 
-        listScrollView = [[CPScrollView alloc] initWithFrame:CGRectMake(1,30,175,240)];
+        listScrollView = [[CPScrollView alloc] initWithFrame:CGRectMake(1,40,175,230)];
         [listScrollView setBackgroundColor:[CPColor whiteColor]];
         [listScrollView setHasHorizontalScroller:NO];
         [listScrollView setAutohidesScrollers:YES];
         [listScrollView setDocumentView:listView];
         [self addSubview:listScrollView];
 
-        contactView = [[ContactView alloc] initWithFrame:CGRectMake(175,30,324,240)];
+        contactView = [[ContactView alloc] initWithFrame:CGRectMake(175,40,324,230)];
         [contactView setBackgroundColor:[CPColor whiteColor]];
         [self addSubview:contactView];
 
@@ -95,8 +100,8 @@ var defaultColor   = [CPColor colorWithHexString:@"4F4F4F"],
         height = CGRectGetHeight(bounds),
         path   = [CPBezierPath bezierPath];
 
-    [path moveToPoint:CGPointMake(0,30)];
-    [path lineToPoint:CGPointMake(width,30)];
+    [path moveToPoint:CGPointMake(0,40)];
+    [path lineToPoint:CGPointMake(width,40)];
     [path stroke];
 
     [path moveToPoint:CGPointMake(0,height-30)];
@@ -151,8 +156,12 @@ var defaultColor   = [CPColor colorWithHexString:@"4F4F4F"],
     if (searchApplied) {
         alert('Please cancel your current search to remove contacts.')
     } else {
-        var index = [self selectedContactIndex];
-        [controller removeContactAtIndex:index];
+        if ([[controller contacts] count] > 15) {
+            var index = [self selectedContactIndex];
+            [controller removeContactAtIndex:index];
+        } else {
+            alert('Sorry. Have to keep a few contacts in the address book for others.')
+        }
     }
 }
 
