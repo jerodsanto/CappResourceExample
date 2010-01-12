@@ -75,21 +75,23 @@
         }
     }
 
-    var attributesChanged = NO;
+    var attributesChanged = NO,
+        name              = [contactName objectValue]  || "",
+        phone             = [contactPhone objectValue] || "",
+        email             = [contactEmail objectValue] || "";
 
-    if ((contact.name || "") != [contactName objectValue]) {
-        contact.name = [contactName objectValue];
+    if ((contact.name || "") != name) {
+        contact.name = name;
         attributesChanged = YES;
     }
 
-    if ((contact.phoneNumber || "") != [contactPhone objectValue]) {
-        contact.phoneNumber = [contactPhone objectValue];
+    if ((contact.phoneNumber || "") != phone) {
+        contact.phoneNumber = phone;
         attributesChanged = YES;
     }
 
-    if ((contact.email || "") != [contactEmail objectValue]) {
-        console.log(contact.email, [contactEmail objectValue]);
-        contact.email = [contactEmail objectValue];
+    if ((contact.email || "") != email) {
+        contact.email = email;
         attributesChanged = YES;
     }
 

@@ -309,7 +309,7 @@ objj_msgSend(_1a,"addObject:",contacts[i]);
 return _1a;
 }
 })]);
-p;13;ContactView.jI;15;AppKit/CPView.jc;5338;
+p;13;ContactView.jI;15;AppKit/CPView.jc;5195;
 var _1=objj_allocateClassPair(CPView,"ContactView"),_2=_1.isa;
 class_addIvars(_1,[new objj_ivar("contact"),new objj_ivar("isEditable"),new objj_ivar("contactName"),new objj_ivar("phoneTitle"),new objj_ivar("contactPhone"),new objj_ivar("emailTitle"),new objj_ivar("contactEmail")]);
 objj_registerClassPair(_1);
@@ -377,57 +377,56 @@ if(objj_msgSend(objj_msgSend(_17,"object"),"className")==="CPSearchField"){
 return;
 }
 }
-var _18=NO;
-if((contact.name||"")!=objj_msgSend(contactName,"objectValue")){
-contact.name=objj_msgSend(contactName,"objectValue");
+var _18=NO,_19=objj_msgSend(contactName,"objectValue")||"",_1a=objj_msgSend(contactPhone,"objectValue")||"",_1b=objj_msgSend(contactEmail,"objectValue")||"";
+if((contact.name||"")!=_19){
+contact.name=_19;
 _18=YES;
 }
-if((contact.phoneNumber||"")!=objj_msgSend(contactPhone,"objectValue")){
-contact.phoneNumber=objj_msgSend(contactPhone,"objectValue");
+if((contact.phoneNumber||"")!=_1a){
+contact.phoneNumber=_1a;
 _18=YES;
 }
-if((contact.email||"")!=objj_msgSend(contactEmail,"objectValue")){
-console.log(contact.email,objj_msgSend(contactEmail,"objectValue"));
-contact.email=objj_msgSend(contactEmail,"objectValue");
+if((contact.email||"")!=_1b){
+contact.email=_1b;
 _18=YES;
 }
 if(_18){
 objj_msgSend(contact,"save");
 }
 }
-}),new objj_method(sel_getUid("setContact:"),function(_19,_1a,_1b){
-with(_19){
-contact=_1b;
-objj_msgSend(_19,"setEditable:",NO);
+}),new objj_method(sel_getUid("setContact:"),function(_1c,_1d,_1e){
+with(_1c){
+contact=_1e;
+objj_msgSend(_1c,"setEditable:",NO);
 objj_msgSend(contactName,"setStringValue:",objj_msgSend(contact,"name"));
 objj_msgSend(phoneTitle,"setStringValue:","phone");
 objj_msgSend(contactPhone,"setStringValue:",objj_msgSend(contact,"phoneNumber"));
 objj_msgSend(emailTitle,"setStringValue:","email");
 objj_msgSend(contactEmail,"setStringValue:",objj_msgSend(contact,"email"));
 }
-}),new objj_method(sel_getUid("clear"),function(_1c,_1d){
-with(_1c){
+}),new objj_method(sel_getUid("clear"),function(_1f,_20){
+with(_1f){
 objj_msgSend(contactName,"setStringValue:","");
 objj_msgSend(phoneTitle,"setStringValue:","");
 objj_msgSend(contactPhone,"setStringValue:","");
 objj_msgSend(emailTitle,"setStringValue:","");
 objj_msgSend(contactEmail,"setStringValue:","");
 }
-}),new objj_method(sel_getUid("setEditable:"),function(_1e,_1f,_20){
-with(_1e){
-if(contact&&_20){
+}),new objj_method(sel_getUid("setEditable:"),function(_21,_22,_23){
+with(_21){
+if(contact&&_23){
 isEditable=YES;
 objj_msgSend(contactName,"setEditable:",YES);
 objj_msgSend(contactPhone,"setEditable:",YES);
 objj_msgSend(contactEmail,"setEditable:",YES);
-objj_msgSend(contactName,"selectText:",_1e);
+objj_msgSend(contactName,"selectText:",_21);
 }else{
 isEditable=NO;
 objj_msgSend(contactName,"setEditable:",NO);
 objj_msgSend(contactPhone,"setEditable:",NO);
 objj_msgSend(contactEmail,"setEditable:",NO);
 }
-objj_msgSend(_1e,"setNeedsDisplay:",YES);
+objj_msgSend(_21,"setNeedsDisplay:",YES);
 }
 })]);
 p;8;JSLink.jI;20;AppKit/CPTextField.jI;17;AppKit/CPButton.jc;1386;
