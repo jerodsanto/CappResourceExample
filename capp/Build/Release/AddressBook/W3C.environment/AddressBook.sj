@@ -1,4 +1,4 @@
-@STATIC;1.0;u;21;Resources/spinner.gif2490;data:image/gif;base64,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p;15;AppController.jI;21;Foundation/CPObject.ji;20;ContactsController.ji;10;BookView.jc;1012;
+@STATIC;1.0;u;21;Resources/spinner.gif2490;data:image/gif;base64,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p;15;AppController.jI;21;Foundation/CPObject.ji;20;ContactsController.ji;10;BookView.ji;8;JSLink.jc;1933;
 var _1=objj_allocateClassPair(CPObject,"AppController"),_2=_1.isa;
 class_addIvars(_1,[new objj_ivar("contactsController"),new objj_ivar("bookView")]);
 objj_registerClassPair(_1);
@@ -8,13 +8,24 @@ with(_3){
 var _6=objj_msgSend(objj_msgSend(CPWindow,"alloc"),"initWithContentRect:styleMask:",CGRectMakeZero(),CPBorderlessBridgeWindowMask),_7=objj_msgSend(_6,"contentView"),_8=objj_msgSend(_7,"bounds"),_9=CGRectGetWidth(_8),_a=CGRectGetHeight(_8);
 contactsController=objj_msgSend(objj_msgSend(ContactsController,"alloc"),"init");
 objj_msgSend(contactsController,"getContacts");
+var _b=objj_msgSend(objj_msgSend(CPView,"alloc"),"initWithFrame:",CGRectMake(0,0,500,330));
+objj_msgSend(_b,"setAutoresizingMask:",CPViewMinXMargin|CPViewMinYMargin|CPViewMaxXMargin|CPViewMaxYMargin);
 bookView=objj_msgSend(objj_msgSend(BookView,"alloc"),"initWithFrame:controller:",CGRectMake(0,0,500,300),contactsController);
-objj_msgSend(_7,"addSubview:",bookView);
-objj_msgSend(bookView,"setCenter:",objj_msgSend(_7,"center"));
+objj_msgSend(_b,"addSubview:",bookView);
+var _c=objj_msgSend(objj_msgSend(JSMetaText,"alloc"),"initWithFrame:title:",CGRectMake(260,308,35,20),"A little");
+objj_msgSend(_b,"addSubview:",_c);
+var _d=objj_msgSend(objj_msgSend(JSLink,"alloc"),"initWithFrame:title:url:",CGRectMake(295,308,85,20),"CappuccinoResource","http://github.com/sant0sk1/CappuccinoResource");
+objj_msgSend(_b,"addSubview:",_d);
+var _e=objj_msgSend(objj_msgSend(JSMetaText,"alloc"),"initWithFrame:title:",CGRectMake(380,308,70,20),"example app by");
+objj_msgSend(_b,"addSubview:",_e);
+var by=objj_msgSend(objj_msgSend(JSLink,"alloc"),"initWithFrame:title:url:",CGRectMake(450,308,50,20),"Jerod Santo","http://jerodsanto.net");
+objj_msgSend(_b,"addSubview:",by);
+objj_msgSend(_7,"addSubview:",_b);
+objj_msgSend(_b,"setCenter:",objj_msgSend(_7,"center"));
 objj_msgSend(_6,"orderFront:",_3);
 }
 })]);
-p;10;BookView.jI;15;AppKit/CPView.ji;13;ContactView.jc;7917;
+p;10;BookView.jI;15;AppKit/CPView.ji;13;ContactView.jc;8238;
 var _1=objj_msgSend(CPColor,"colorWithHexString:","4F4F4F"),_2=objj_msgSend(CPColor,"colorWithHexString:","0086F0");
 var _3=objj_allocateClassPair(CPView,"BookView"),_4=_3.isa;
 class_addIvars(_3,[new objj_ivar("controller"),new objj_ivar("searchField"),new objj_ivar("searchApplied"),new objj_ivar("searchResults"),new objj_ivar("contactView"),new objj_ivar("listScrollView"),new objj_ivar("theListView"),new objj_ivar("addButton"),new objj_ivar("editButton"),new objj_ivar("removeButton"),new objj_ivar("contactString")]);
@@ -24,28 +35,31 @@ class_addMethods(_3,[new objj_method(sel_getUid("initWithFrame:controller:"),fun
 with(_5){
 if(_5=objj_msgSendSuper({receiver:_5,super_class:objj_getClass("CPView")},"initWithFrame:",_7)){
 objj_msgSend(_5,"setBackgroundColor:",objj_msgSend(CPColor,"colorWithHexString:","bababa"));
-objj_msgSend(_5,"setAutoresizingMask:",CPViewMinXMargin|CPViewMinYMargin|CPViewMaxXMargin|CPViewMaxYMargin);
 controller=_8;
 searchApplied=NO;
-searchField=objj_msgSend(objj_msgSend(CPSearchField,"alloc"),"initWithFrame:",CGRectMake(365,0,130,30));
+var _9=objj_msgSend(objj_msgSend(CPTextField,"alloc"),"initWithFrame:",CGRectMake(210,2,80,30));
+objj_msgSend(_9,"setStringValue:","Address Book");
+objj_msgSend(_9,"setFont:",objj_msgSend(CPFont,"fontWithName:size:","Trebuchet MS",11.5));
+objj_msgSend(_5,"addSubview:",_9);
+searchField=objj_msgSend(objj_msgSend(CPSearchField,"alloc"),"initWithFrame:",CGRectMake(365,10,130,30));
 objj_msgSend(searchField,"setTarget:",_5);
 objj_msgSend(searchField,"setAction:",sel_getUid("searchStringDidApply:"));
 objj_msgSend(_5,"addSubview:",searchField);
-var _9=objj_msgSend(objj_msgSend(CPTableColumn,"alloc"),"initWithIdentifier:","name");
-objj_msgSend(_9,"setWidth:",160);
-listView=objj_msgSend(objj_msgSend(CPTableView,"alloc"),"initWithFrame:",CGRectMake(0,0,160,240));
+var _a=objj_msgSend(objj_msgSend(CPTableColumn,"alloc"),"initWithIdentifier:","name");
+objj_msgSend(_a,"setWidth:",160);
+listView=objj_msgSend(objj_msgSend(CPTableView,"alloc"),"initWithFrame:",CGRectMake(0,0,160,230));
 objj_msgSend(listView,"setHeaderView:",nil);
 objj_msgSend(listView,"setCornerView:",nil);
-objj_msgSend(listView,"addTableColumn:",_9);
+objj_msgSend(listView,"addTableColumn:",_a);
 objj_msgSend(listView,"setDelegate:",_5);
 objj_msgSend(listView,"setDataSource:",_5);
-listScrollView=objj_msgSend(objj_msgSend(CPScrollView,"alloc"),"initWithFrame:",CGRectMake(1,30,175,240));
+listScrollView=objj_msgSend(objj_msgSend(CPScrollView,"alloc"),"initWithFrame:",CGRectMake(1,40,175,230));
 objj_msgSend(listScrollView,"setBackgroundColor:",objj_msgSend(CPColor,"whiteColor"));
 objj_msgSend(listScrollView,"setHasHorizontalScroller:",NO);
 objj_msgSend(listScrollView,"setAutohidesScrollers:",YES);
 objj_msgSend(listScrollView,"setDocumentView:",listView);
 objj_msgSend(_5,"addSubview:",listScrollView);
-contactView=objj_msgSend(objj_msgSend(ContactView,"alloc"),"initWithFrame:",CGRectMake(175,30,324,240));
+contactView=objj_msgSend(objj_msgSend(ContactView,"alloc"),"initWithFrame:",CGRectMake(175,40,324,230));
 objj_msgSend(contactView,"setBackgroundColor:",objj_msgSend(CPColor,"whiteColor"));
 objj_msgSend(_5,"addSubview:",contactView);
 addButton=objj_msgSend(CPButton,"buttonWithTitle:","+");
@@ -70,35 +84,35 @@ objj_msgSend(objj_msgSend(CPNotificationCenter,"defaultCenter"),"addObserver:sel
 }
 return _5;
 }
-}),new objj_method(sel_getUid("drawRect:"),function(_a,_b,_c){
-with(_a){
+}),new objj_method(sel_getUid("drawRect:"),function(_b,_c,_d){
+with(_b){
 objj_msgSend(objj_msgSend(CPColor,"colorWithHexString:","515151"),"set");
-var _d=objj_msgSend(_a,"bounds"),_e=CGRectGetWidth(_d),_f=CGRectGetHeight(_d),_10=objj_msgSend(CPBezierPath,"bezierPath");
-objj_msgSend(_10,"moveToPoint:",CGPointMake(0,30));
-objj_msgSend(_10,"lineToPoint:",CGPointMake(_e,30));
-objj_msgSend(_10,"stroke");
-objj_msgSend(_10,"moveToPoint:",CGPointMake(0,_f-30));
-objj_msgSend(_10,"lineToPoint:",CGPointMake(_e,_f-30));
-objj_msgSend(_10,"stroke");
-objj_msgSend(CPBezierPath,"strokeRect:",_d);
+var _e=objj_msgSend(_b,"bounds"),_f=CGRectGetWidth(_e),_10=CGRectGetHeight(_e),_11=objj_msgSend(CPBezierPath,"bezierPath");
+objj_msgSend(_11,"moveToPoint:",CGPointMake(0,40));
+objj_msgSend(_11,"lineToPoint:",CGPointMake(_f,40));
+objj_msgSend(_11,"stroke");
+objj_msgSend(_11,"moveToPoint:",CGPointMake(0,_10-30));
+objj_msgSend(_11,"lineToPoint:",CGPointMake(_f,_10-30));
+objj_msgSend(_11,"stroke");
+objj_msgSend(CPBezierPath,"strokeRect:",_e);
 }
-}),new objj_method(sel_getUid("viewWillDraw"),function(_11,_12){
-with(_11){
+}),new objj_method(sel_getUid("viewWillDraw"),function(_12,_13){
+with(_12){
 objj_msgSend(contactString,"setStringValue:",objj_msgSend(objj_msgSend(controller,"contacts"),"count")+" contacts");
 }
-}),new objj_method(sel_getUid("searchStringDidApply:"),function(_13,_14,_15){
-with(_13){
-if(objj_msgSend(_15,"objectValue")){
-searchResults=objj_msgSend(controller,"contactsMatchingSearchString:",objj_msgSend(_15,"objectValue"));
+}),new objj_method(sel_getUid("searchStringDidApply:"),function(_14,_15,_16){
+with(_14){
+if(objj_msgSend(_16,"objectValue")){
+searchResults=objj_msgSend(controller,"contactsMatchingSearchString:",objj_msgSend(_16,"objectValue"));
 searchApplied=YES;
 }else{
 searchResults=objj_msgSend(CPArray,"array");
 searchApplied=NO;
 }
-objj_msgSend(_13,"reloadListView:",nil);
+objj_msgSend(_14,"reloadListView:",nil);
 }
-}),new objj_method(sel_getUid("editButtonDidClick:"),function(_16,_17,_18){
-with(_16){
+}),new objj_method(sel_getUid("editButtonDidClick:"),function(_17,_18,_19){
+with(_17){
 if(objj_msgSend(contactView,"isEditable")){
 objj_msgSend(editButton,"setTextColor:",_1);
 objj_msgSend(contactView,"setEditable:",NO);
@@ -107,83 +121,87 @@ objj_msgSend(editButton,"setTextColor:",_2);
 objj_msgSend(contactView,"setEditable:",YES);
 }
 }
-}),new objj_method(sel_getUid("addButtonDidClick:"),function(_19,_1a,_1b){
-with(_19){
+}),new objj_method(sel_getUid("addButtonDidClick:"),function(_1a,_1b,_1c){
+with(_1a){
 if(searchApplied){
 alert("Please cancel your current search to add new contacts.");
 }else{
 objj_msgSend(controller,"addContact");
-objj_msgSend(_19,"setSelectedContactIndex:",0);
+objj_msgSend(_1a,"setSelectedContactIndex:",0);
 objj_msgSend(editButton,"setTextColor:",_2);
 objj_msgSend(contactView,"setEditable:",YES);
 }
 }
-}),new objj_method(sel_getUid("removeButtonDidClick:"),function(_1c,_1d,_1e){
-with(_1c){
+}),new objj_method(sel_getUid("removeButtonDidClick:"),function(_1d,_1e,_1f){
+with(_1d){
 if(searchApplied){
 alert("Please cancel your current search to remove contacts.");
 }else{
-var _1f=objj_msgSend(_1c,"selectedContactIndex");
-objj_msgSend(controller,"removeContactAtIndex:",_1f);
+if(objj_msgSend(objj_msgSend(controller,"contacts"),"count")>15){
+var _20=objj_msgSend(_1d,"selectedContactIndex");
+objj_msgSend(controller,"removeContactAtIndex:",_20);
+}else{
+alert("Sorry. Have to keep a few contacts in the address book for others.");
 }
 }
-}),new objj_method(sel_getUid("selectedContactIndex"),function(_20,_21){
-with(_20){
+}
+}),new objj_method(sel_getUid("selectedContactIndex"),function(_21,_22){
+with(_21){
 return objj_msgSend(objj_msgSend(listView,"selectedRowIndexes"),"firstIndex");
 }
-}),new objj_method(sel_getUid("setSelectedContactIndex:"),function(_22,_23,_24){
-with(_22){
-objj_msgSend(listView,"selectRowIndexes:byExtendingSelection:",objj_msgSend(CPIndexSet,"indexSetWithIndex:",_24),NO);
-objj_msgSend(listView,"scrollRowToVisible:",_24);
+}),new objj_method(sel_getUid("setSelectedContactIndex:"),function(_23,_24,_25){
+with(_23){
+objj_msgSend(listView,"selectRowIndexes:byExtendingSelection:",objj_msgSend(CPIndexSet,"indexSetWithIndex:",_25),NO);
+objj_msgSend(listView,"scrollRowToVisible:",_25);
 }
-}),new objj_method(sel_getUid("setCurrentContact:"),function(_25,_26,_27){
-with(_25){
-if(_27!=objj_msgSend(contactView,"contact")){
-if(_27){
-objj_msgSend(contactView,"setContact:",_27);
+}),new objj_method(sel_getUid("setCurrentContact:"),function(_26,_27,_28){
+with(_26){
+if(_28!=objj_msgSend(contactView,"contact")){
+if(_28){
+objj_msgSend(contactView,"setContact:",_28);
 }else{
 objj_msgSend(contactView,"clear");
 }
 objj_msgSend(editButton,"setTextColor:",_1);
 }
 }
-}),new objj_method(sel_getUid("reloadListView:"),function(_28,_29,_2a){
-with(_28){
+}),new objj_method(sel_getUid("reloadListView:"),function(_29,_2a,_2b){
+with(_29){
 objj_msgSend(listView,"reloadData");
-if(objj_msgSend(_2a,"userInfo")){
-objj_msgSend(_28,"setSelectedContactIndex:",objj_msgSend(objj_msgSend(_2a,"userInfo"),"objectForKey:","index"));
+if(objj_msgSend(_2b,"userInfo")){
+objj_msgSend(_29,"setSelectedContactIndex:",objj_msgSend(objj_msgSend(_2b,"userInfo"),"objectForKey:","index"));
 }
 if(searchApplied){
-objj_msgSend(_28,"setCurrentContact:",searchResults[objj_msgSend(_28,"selectedContactIndex")]);
+objj_msgSend(_29,"setCurrentContact:",searchResults[objj_msgSend(_29,"selectedContactIndex")]);
 }else{
-objj_msgSend(_28,"setCurrentContact:",objj_msgSend(controller,"contacts")[objj_msgSend(_28,"selectedContactIndex")]);
+objj_msgSend(_29,"setCurrentContact:",objj_msgSend(controller,"contacts")[objj_msgSend(_29,"selectedContactIndex")]);
 }
-objj_msgSend(_28,"setNeedsDisplay:",YES);
+objj_msgSend(_29,"setNeedsDisplay:",YES);
 }
-}),new objj_method(sel_getUid("numberOfRowsInTableView:"),function(_2b,_2c,_2d){
-with(_2b){
+}),new objj_method(sel_getUid("numberOfRowsInTableView:"),function(_2c,_2d,_2e){
+with(_2c){
 if(searchApplied){
 return objj_msgSend(searchResults,"count");
 }else{
 return objj_msgSend(objj_msgSend(controller,"contacts"),"count");
 }
 }
-}),new objj_method(sel_getUid("tableView:objectValueForTableColumn:row:"),function(_2e,_2f,_30,_31,_32){
-with(_2e){
+}),new objj_method(sel_getUid("tableView:objectValueForTableColumn:row:"),function(_2f,_30,_31,_32,_33){
+with(_2f){
 if(searchApplied){
-return objj_msgSend(searchResults[_32],"name");
+return objj_msgSend(searchResults[_33],"name");
 }else{
-return objj_msgSend(objj_msgSend(controller,"contacts")[_32],"name");
+return objj_msgSend(objj_msgSend(controller,"contacts")[_33],"name");
 }
 }
-}),new objj_method(sel_getUid("tableViewSelectionDidChange:"),function(_33,_34,_35){
-with(_33){
-var _36=objj_msgSend(_33,"selectedContactIndex");
-if(_36>-1){
+}),new objj_method(sel_getUid("tableViewSelectionDidChange:"),function(_34,_35,_36){
+with(_34){
+var _37=objj_msgSend(_34,"selectedContactIndex");
+if(_37>-1){
 if(searchApplied){
-objj_msgSend(_33,"setCurrentContact:",searchResults[_36]);
+objj_msgSend(_34,"setCurrentContact:",searchResults[_37]);
 }else{
-objj_msgSend(_33,"setCurrentContact:",objj_msgSend(controller,"contacts")[_36]);
+objj_msgSend(_34,"setCurrentContact:",objj_msgSend(controller,"contacts")[_37]);
 }
 }
 }
@@ -316,25 +334,25 @@ isEditable=_c;
 with(_d){
 if(_d=objj_msgSendSuper({receiver:_d,super_class:objj_getClass("CPView")},"initWithFrame:",_f)){
 var _10=objj_msgSend(_d,"bounds");
-contactName=objj_msgSend(objj_msgSend(CPTextField,"alloc"),"initWithFrame:",CGRectMake(10,10,CGRectGetWidth(_10)-10,33));
+contactName=objj_msgSend(objj_msgSend(CPTextField,"alloc"),"initWithFrame:",CGRectMake(25,15,CGRectGetWidth(_10)-25,33));
 objj_msgSend(contactName,"setFont:",objj_msgSend(CPFont,"fontWithName:size:","Trebuchet MS",24));
 objj_msgSend(contactName,"setTarget:",_d);
 objj_msgSend(contactName,"setAction:",sel_getUid("saveContact:"));
 objj_msgSend(_d,"addSubview:",contactName);
-phoneTitle=objj_msgSend(objj_msgSend(CPTextField,"alloc"),"initWithFrame:",CGRectMake(15,60,40,20));
+phoneTitle=objj_msgSend(objj_msgSend(CPTextField,"alloc"),"initWithFrame:",CGRectMake(30,65,40,20));
 objj_msgSend(phoneTitle,"setFont:",objj_msgSend(CPFont,"fontWithName:size:","Trebuchet MS",13));
 objj_msgSend(phoneTitle,"setTextColor:",objj_msgSend(CPColor,"colorWithHexString:","b1b1b1"));
 objj_msgSend(_d,"addSubview:",phoneTitle);
-contactPhone=objj_msgSend(objj_msgSend(CPTextField,"alloc"),"initWithFrame:",CGRectMake(60,60,250,20));
+contactPhone=objj_msgSend(objj_msgSend(CPTextField,"alloc"),"initWithFrame:",CGRectMake(75,65,250,20));
 objj_msgSend(contactPhone,"setFont:",objj_msgSend(CPFont,"fontWithName:size:","Trebuchet MS",13));
 objj_msgSend(contactPhone,"setTarget:",_d);
 objj_msgSend(contactPhone,"setAction:",sel_getUid("saveContact:"));
 objj_msgSend(_d,"addSubview:",contactPhone);
-emailTitle=objj_msgSend(objj_msgSend(CPTextField,"alloc"),"initWithFrame:",CGRectMake(16,85,40,20));
+emailTitle=objj_msgSend(objj_msgSend(CPTextField,"alloc"),"initWithFrame:",CGRectMake(31,90,40,20));
 objj_msgSend(emailTitle,"setFont:",objj_msgSend(CPFont,"fontWithName:size:","Trebuchet MS",13));
 objj_msgSend(emailTitle,"setTextColor:",objj_msgSend(CPColor,"colorWithHexString:","b1b1b1"));
 objj_msgSend(_d,"addSubview:",emailTitle);
-contactEmail=objj_msgSend(objj_msgSend(CPTextField,"alloc"),"initWithFrame:",CGRectMake(60,85,250,20));
+contactEmail=objj_msgSend(objj_msgSend(CPTextField,"alloc"),"initWithFrame:",CGRectMake(75,90,250,20));
 objj_msgSend(contactEmail,"setFont:",objj_msgSend(CPFont,"fontWithName:size:","Trebuchet MS",13));
 objj_msgSend(contactEmail,"setTarget:",_d);
 objj_msgSend(contactEmail,"setAction:",sel_getUid("saveContact:"));
@@ -410,6 +428,42 @@ objj_msgSend(contactPhone,"setEditable:",NO);
 objj_msgSend(contactEmail,"setEditable:",NO);
 }
 objj_msgSend(_1e,"setNeedsDisplay:",YES);
+}
+})]);
+p;8;JSLink.jI;20;AppKit/CPTextField.jI;17;AppKit/CPButton.jc;1386;
+var _1=objj_allocateClassPair(CPButton,"JSMetaText"),_2=_1.isa;
+objj_registerClassPair(_1);
+objj_addClassForBundle(_1,objj_getBundleWithPath(OBJJ_CURRENT_BUNDLE.path));
+class_addMethods(_1,[new objj_method(sel_getUid("initWithFrame:title:"),function(_3,_4,_5,_6){
+with(_3){
+if(_3=objj_msgSendSuper({receiver:_3,super_class:objj_getClass("CPButton")},"initWithFrame:",_5)){
+objj_msgSend(_3,"setBordered:",NO);
+objj_msgSend(_3,"setTitle:",_6);
+objj_msgSend(_3,"setTextColor:",objj_msgSend(CPColor,"blackColor"));
+objj_msgSend(_3,"setFont:",objj_msgSend(CPFont,"fontWithName:size:","Trebuchet MS",8.5));
+}
+return _3;
+}
+})]);
+var _1=objj_allocateClassPair(JSMetaText,"JSLink"),_2=_1.isa;
+class_addIvars(_1,[new objj_ivar("url")]);
+objj_registerClassPair(_1);
+objj_addClassForBundle(_1,objj_getBundleWithPath(OBJJ_CURRENT_BUNDLE.path));
+class_addMethods(_1,[new objj_method(sel_getUid("initWithFrame:title:url:"),function(_7,_8,_9,_a,_b){
+with(_7){
+if(_7=objj_msgSendSuper({receiver:_7,super_class:objj_getClass("JSMetaText")},"initWithFrame:title:",_9,_a)){
+url=_b;
+objj_msgSend(_7,"setTarget:",_7);
+objj_msgSend(_7,"setAction:",sel_getUid("linkDidClick:"));
+_7._DOMElement.style.cursor="pointer";
+_7._DOMElement.style.textDecoration="underline";
+}
+return _7;
+}
+}),new objj_method(sel_getUid("linkDidClick:"),function(_c,_d,_e){
+with(_c){
+console.log("clicked");
+window.open(url);
 }
 })]);
 p;6;main.jI;23;Foundation/Foundation.jI;15;AppKit/AppKit.ji;15;AppController.jc;52;

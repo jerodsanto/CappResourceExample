@@ -16,7 +16,7 @@ var ENV           = require("system").env,
 
 app ("AddressBook", function(task)
 {
-    task.setBuildIntermediatesPath(FILE.join("Build", "AddressBook.build", configuration));
+    task.setBuildIntermediatesPath(FILE.join("/tmp", "AddressBook.build", configuration));
     task.setBuildPath(FILE.join("Build", configuration));
 
     task.setProductName("AddressBook");

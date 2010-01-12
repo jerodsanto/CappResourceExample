@@ -25,7 +25,6 @@ var defaultColor   = [CPColor colorWithHexString:@"4F4F4F"],
     if(self = [super initWithFrame:aFrame])
     {
         [self setBackgroundColor:[CPColor colorWithHexString:@"bababa"]];
-        [self setAutoresizingMask:CPViewMinXMargin | CPViewMinYMargin | CPViewMaxXMargin | CPViewMaxYMargin];
 
         controller    = aController;
         searchApplied = NO;
