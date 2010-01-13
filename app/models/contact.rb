@@ -12,7 +12,18 @@
 
 class Contact < ActiveRecord::Base
 
+  after_destroy :reseed_if_needed
+
   def <=>(other)
     name <=> other.name
   end
+
+  private
+
+  def reseed_if_needed
+    if Contact.count <= 20
+      system "rake db:seed &"
+    end
+  end
+
 end
